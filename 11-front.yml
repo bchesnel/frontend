@@ -23,6 +23,11 @@ spec:
         image: redis:alpine
         ports:
         - containerPort: 8080
+        resources:
+          limits:
+            cpu: 200m
+          requests:
+            cpu: 100m
 ---
 apiVersion: v1
 kind: Service
