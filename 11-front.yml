@@ -53,8 +53,10 @@ metadata:
 spec:
   selector:
     app: frontend
+  type: LoadBalancer
   ports:
   - port: 80
+    targetPort: 8080
 ---
 apiVersion: autoscaling/v2
 kind: HorizontalPodAutoscaler
