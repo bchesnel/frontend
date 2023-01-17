@@ -38,7 +38,7 @@ spec:
           - name: RECOMMENDATION_SERVICE_ADDR
             value: "http://recommendation:5000/recommendation"
           - name: CURRENCY_SERVICE_ADDR
-            value: "http://currency:7000/currency"
+            value: "http://currency:7000/"
           - name: CART_SERVICE_ADDR
             value: "http://cartservice-svc:7070/cartservice"
           - name: AD_SERVICE_ADDR
