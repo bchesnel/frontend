@@ -32,19 +32,19 @@ spec:
           - name: PORT
             value: "8080"
           - name: PRODUCT_CATALOG_SERVICE_ADDR
-            value: "catalog-svc:3550"
+            value: "http://catalog-svc:3550"
           - name: SHIPPING_SERVICE_ADDR
-            value: "shipping:50051"
+            value: "http://shipping:50051"
           - name: CHECKOUT_SERVICE_ADDR
-            value: "checkout-svc:5050"
+            value: "http://checkout-svc:5050"
           - name: RECOMMENDATION_SERVICE_ADDR
-            value: "recommendation:5000"
+            value: "http://recommendation:5000"
           - name: CURRENCY_SERVICE_ADDR
-            value: "currency:7000"
+            value: "http://currency:7000"
           - name: CART_SERVICE_ADDR
-            value: "cartservice-svc:7070"
+            value: "http://cartservice-svc:7070"
           - name: AD_SERVICE_ADDR
-            value: "adservice-svc:9555"
+            value: "http://adservice-svc:9555"
 ---
 apiVersion: v1
 kind: Service
