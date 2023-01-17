@@ -43,21 +43,6 @@ spec:
             value: "cartservice-svc:7070"
           - name: AD_SERVICE_ADDR
             value: "adservice-svc:9555"
-
-#           - name: PRODUCT_CATALOG_SERVICE_ADDR
-#             value: "http://catalog-svc:3550"
-#           - name: SHIPPING_SERVICE_ADDR
-#             value: "http://shipping:50051"
-#           - name: CHECKOUT_SERVICE_ADDR
-#             value: "http://checkout-svc:5050"
-#           - name: RECOMMENDATION_SERVICE_ADDR
-#             value: "http://recommendation:5000"
-#           - name: CURRENCY_SERVICE_ADDR
-#             value: "http://currency:7000"
-#           - name: CART_SERVICE_ADDR
-#             value: "http://cartservice-svc:7070"
-#           - name: AD_SERVICE_ADDR
-#             value: "http://adservice-svc:9555"
 ---
 apiVersion: v1
 kind: Service
